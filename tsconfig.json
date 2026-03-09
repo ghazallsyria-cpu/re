@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-=======
     "target": "es2017",
     "downlevelIteration": true,
-
->>>>>>> 6a5b527cad545db71c1d5a7bf16bd53609a27c53
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
