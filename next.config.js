@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+<<<<<<< HEAD
+=======
+
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
+>>>>>>> 6a5b527cad545db71c1d5a7bf16bd53609a27c53
   images: {
     remotePatterns: [
       {
@@ -10,6 +18,10 @@ const nextConfig = {
       },
     ],
   },
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a5b527cad545db71c1d5a7bf16bd53609a27c53
   async headers() {
     return [
       {

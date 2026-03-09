@@ -301,6 +301,7 @@
   .glow-line { height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); opacity: 0.4; }
   .scrollbar-thin::-webkit-scrollbar { height: 3px; width: 3px; }
   .scrollbar-thin::-webkit-scrollbar-thumb { background: var(--gold-glow); border-radius: 999px; }
+<<<<<<< HEAD
 
   /* ─── Responsive grid helpers ─── */
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -352,6 +353,8 @@
     box-shadow: 0 40px 80px rgba(0,0,0,0.6);
     animation: fadeUp 0.3s cubic-bezier(0.16,1,0.3,1) both;
   }
+=======
+>>>>>>> 6a5b527cad545db71c1d5a7bf16bd53609a27c53
 }
 
 @keyframes spin { to { transform: rotate(360deg); } }
